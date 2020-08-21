@@ -1,0 +1,135 @@
+body {
+    background-color: #FFF;
+}
+
+header {
+    background-color: rgba(239, 240, 241, 0.959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 45%;
+    max-width: 250px;
+    padding: 6px;
+}
+
+#main-container {
+    background-color:rgba(239, 240, 241, 0.959);
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    max-width: 780px;
+    
+}
+
+#text-initial {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(175, 181, 184);
+    border-bottom: 1px solid var(--color-ligther);
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.form-content {
+    width: 49%;
+    margin: auto 3.5px;
+    padding: 15px;
+    font-size: 3.5rem;
+    display: inline-block;
+    
+}
+
+.form-content label {
+    font-size: 2.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    color: #757575;
+}
+
+.form-content input {
+    text-align: center;
+    width: 100%;
+    max-width: 620px;
+    height: 45px;
+    border-radius: 2px;
+    background-color: rgb(230, 237, 241);
+    transition: 0.5s;
+    border: 1px solid #757575;;
+}
+
+.form-content input:hover {
+    opacity: 0.3s;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio label {
+    margin: auto;
+    font-size: 2.7rem;
+    width: 40%;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.radio label p {
+    margin-left: 4px;
+}
+
+.radio input {
+    width: 15%;
+    max-width: 50px;
+}
+
+#tel1, #tel2 {
+    display: inline-block;
+    margin: 12px;
+    width: 45%;
+}
+
+#tel1 .DDD, #tel2 .DDD {
+    width: 30%;
+}
+
+#tel1 .tel, #tel2 .tel {
+    width: 65%;
+}
+
+.submit {
+    font-size: 2.3rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.submit img{
+    width: 3%;
+    margin: 6px 19px;
+}
+
+.submit input{
+    width: 20%;
+    float: right;
+    margin-right: 19px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.submit input:hover {
+    opacity: 0.9s;
+    background-color: rgb(204, 203, 203);
+    font-size: 1.4rem;
+    color: rgb(59, 59, 59);
+}
+

@@ -1,0 +1,30 @@
+:root {
+        --color-background: rgb(41, 87, 164);
+        --color-ligther: rgb(68, 109, 180);
+        --color-border-bottom: rgb(40, 92, 182);
+        --color-fundo-inputs: rgb(201, 217, 245);
+        /* controle das medidas rem */
+    }
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100vh;
+    background-color: rgb(41, 87, 164);
+}
+
+@media (min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}
